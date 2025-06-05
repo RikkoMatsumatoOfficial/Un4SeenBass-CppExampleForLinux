@@ -1,2 +1,2 @@
 # Un4SeenBass-CppExampleForLinux
-Un4SeenBass-CppExampleForLinux by RikkoMatsumatoOfficial
+i'm still working at building this via CMAKE!!!
