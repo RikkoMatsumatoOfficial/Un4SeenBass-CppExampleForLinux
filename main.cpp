@@ -1,5 +1,4 @@
 #include <bass.h>
-#include <sys/elf.h>
 #include <iostream>
 #include <chrono>
 #include <thread>
