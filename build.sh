@@ -1,6 +1,8 @@
 #!/bin/bash
-echo "You Need Installed CMAKE!!!"
 
-cmake CMakeLists.txt
 
-echo "This Shell Script is Created by Rikko Matsumato!!!"
+mkdir -p build/bin
+cmake -DCMAKE_BUILD_TYPE=Release -S . -B build
+cmake --build build
+make
+echo "This Shell Script is Created by Rikko Matsumato"
