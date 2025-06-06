@@ -15,6 +15,7 @@ int main()
         HSTREAM streamfunc = BASS_StreamCreateFile(0, (const void*)"Example.mp3", 0, 0, 0x4);
         if(!streamfunc){
             cout << "Failed to Init Music!!!" << endl;
+            exit(3375)
         }
         BASS_ChannelPlay((DWORD)streamfunc, 0);
         while(true){
