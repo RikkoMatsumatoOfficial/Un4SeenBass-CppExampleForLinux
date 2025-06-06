@@ -8,6 +8,7 @@ int main()
     BOOL bool_init = BASS_Init(-1, 44800, 0, 0, 0);
     if(!bool_init){
         cout << "Failed to Init This Function!!!" << endl;
+        exit(3321)
     }
     else{
         BASS_Start();
